@@ -1,0 +1,3 @@
+Имитировать работу SpringFilterChain с использованием паттерна "Цепочка обязанностей".
+Описание работы по ссылке:
+https://docs.spring.io/spring-security/site/docs/3.0.x/reference/security-filter-chain.html в п.7.3.
