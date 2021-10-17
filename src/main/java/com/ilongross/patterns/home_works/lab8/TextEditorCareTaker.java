@@ -1,4 +1,4 @@
-package com.ilongross.patterns.behavioral.memento;
+package com.ilongross.patterns.home_works.lab8;
 
 import java.util.LinkedList;
 import java.util.List;

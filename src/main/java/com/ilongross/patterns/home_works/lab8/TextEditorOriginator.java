@@ -1,4 +1,4 @@
-package com.ilongross.patterns.behavioral.memento;
+package com.ilongross.patterns.home_works.lab8;
 
 public class TextEditorOriginator {
 
