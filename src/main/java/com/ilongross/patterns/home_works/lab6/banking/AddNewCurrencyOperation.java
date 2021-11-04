@@ -1,8 +1,5 @@
 package com.ilongross.patterns.home_works.lab6.banking;
 
-import com.ilongross.patterns.home_works.lab6.banking.Bank;
-import com.ilongross.patterns.home_works.lab6.banking.BankOperation;
-
 public class AddNewCurrencyOperation extends BankOperation {
 
     private String currencyName;

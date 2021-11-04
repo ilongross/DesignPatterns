@@ -1,8 +1,8 @@
 package com.ilongross.patterns.home_works.lab7.statecommandupgr_documents;
 
-import com.ilongross.patterns.behavioral.state.state_command.DocumentState;
-import com.ilongross.patterns.behavioral.state.state_command.NewState;
-import com.ilongross.patterns.behavioral.state.state_command.command.DocumentOperation;
+import com.ilongross.patterns.gof.behavioral.state.state_command.DocumentState;
+import com.ilongross.patterns.gof.behavioral.state.state_command.NewState;
+import com.ilongross.patterns.gof.behavioral.state.state_command.command.DocumentOperation;
 
 import java.util.ArrayList;
 import java.util.List;
