@@ -2,7 +2,7 @@ package com.ilongross.patterns.gof.behavioral.memento;
 
 public class TextEditorMemento {
 
-    private String currentText;
+    private final String currentText;
 
     public TextEditorMemento(String currentText) {
         this.currentText = currentText;

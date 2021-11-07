@@ -5,9 +5,9 @@ import java.util.List;
 
 public class TextEditorCareTaker {
 
-    private TextEditorOriginator originator;
+    private final TextEditorOriginator originator;
     private TextEditor textEditor;
-    private List<TextEditorMemento> history = new LinkedList<>();
+    private final List<TextEditorMemento> history = new LinkedList<>();
 
 
     public TextEditorCareTaker(TextEditor textEditor) {

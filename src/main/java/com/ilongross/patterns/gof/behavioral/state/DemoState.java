@@ -8,6 +8,7 @@ import java.util.Random;
 
 public class DemoState {
     public static void main(String[] args) throws InterruptedException {
+
         var player = new Player();
 
         var player2 = new com.ilongross.patterns.gof.behavioral.state.upgrade.Player();
@@ -33,8 +34,6 @@ public class DemoState {
             }
         }
 
-        var doc1 = new Document();
-        doc1.executeDocumentOperation(new ReconsiliationOperation());
 
     }
 }

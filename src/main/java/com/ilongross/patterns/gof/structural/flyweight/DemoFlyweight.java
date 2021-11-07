@@ -16,7 +16,7 @@ public class DemoFlyweight {
             purchases.add(new Purchase("Ilon", 1000f, products.get(0)));
         }
 
-        purchases.forEach(p -> System.out.println(p));
+        purchases.forEach(System.out::println);
 
 
 

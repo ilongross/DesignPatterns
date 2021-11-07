@@ -1,7 +1,7 @@
 package com.ilongross.patterns.gof.generative.factories;
 
 import com.ilongross.patterns.gof.generative.factories.abstract_factory.CarFactory;
-import com.ilongross.patterns.gof.generative.factories.builder.ShipBulder;
+import com.ilongross.patterns.gof.generative.factories.builder.ShipBuilder;
 import com.ilongross.patterns.gof.generative.factories.factory_method.VehicleCreator;
 
 import java.util.Objects;
@@ -19,7 +19,7 @@ public class DemoFactory {
         vehicle.move();
 
         try {
-            var ship = new ShipBulder()
+            var ship = new ShipBuilder()
                     .setModel("U-345")
                     .setName("Ilon Gross")
                     .setDecks(0)

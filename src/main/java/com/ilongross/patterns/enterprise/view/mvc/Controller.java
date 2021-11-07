@@ -18,9 +18,7 @@ public class Controller {
     }
 
     public void appendText(String newText) {
-        StringBuilder currentTextBuilder = new StringBuilder(model.getData());
-        currentTextBuilder.append(newText);
-        model.setData(currentTextBuilder.toString());
+        model.setData(model.getData() + newText);
         view.showText();
     }
 
