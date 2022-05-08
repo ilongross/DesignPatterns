@@ -8,9 +8,9 @@ public class DoubleCheckSingle extends ParentWithProperty{
     }
 
     public static DoubleCheckSingle getInstance() {
-        if(localInstance == null) {
+        if(instance == null) {
             synchronized (DoubleCheckSingle.class) {
-                if(localInstance == null) {
+                if(instance == null) {
                     instance = new DoubleCheckSingle();
                 }
             }
