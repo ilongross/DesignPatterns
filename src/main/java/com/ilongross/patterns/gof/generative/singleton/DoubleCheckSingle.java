@@ -8,10 +8,8 @@ public class DoubleCheckSingle extends ParentWithProperty{
     }
 
     public static DoubleCheckSingle getInstance() {
-        DoubleCheckSingle localInstance = instance;
         if(localInstance == null) {
             synchronized (DoubleCheckSingle.class) {
-                localInstance = instance;
                 if(localInstance == null) {
                     instance = new DoubleCheckSingle();
                 }
